@@ -1,11 +1,8 @@
 ﻿// Напишите метод, который принимает на вход шестизначное число и
  //проверяет, является ли оно палиндромом.
 
-//Console.WriteLine ( "Введите шестизначное число");
-//int Num = Convert.ToInt32 (Console.ReadLine() );
-//string Number = Convert.ToString(Num);
 
-Console.WriteLine ( "Введите число");
+Console.WriteLine ( "Введите шестизначное число");
 int Num = Convert.ToInt32 (Console.ReadLine() );
 string Number = Convert.ToString(Num);
 
