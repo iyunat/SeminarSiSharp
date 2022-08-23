@@ -1,10 +1,14 @@
 ﻿// Напишите метод, который задаёт массив из 
 //8 элементов (диапазон от 1 до 100) и выводит их на экран.
 
-void MassivRandom (string [] arg)
+int [] mass = new int [8];
+void ArrayRan (int [] array, int min, int max)
 {
-    int[] array = new int[8];
-    array [0] = new Random(). Next(1,101);
+        for (int i=0; i < 8; i++)
+    {
+        array [i] = new Random(). Next(min, max);
+    }
+   array [0] = new Random(). Next(1,101);
     Console.WriteLine(array [0]);
     array [1] = new Random(). Next(1,101);
     Console.WriteLine(array [1]);
@@ -20,13 +24,6 @@ void MassivRandom (string [] arg)
     Console.WriteLine(array [6]);
     array [7] = new Random(). Next(1,101);
     Console.WriteLine(array [7]);
-    
-    for (int i=0; i < 100; i++ )
-{
-    Random rnd = new Random ();
-    Console.WriteLine ($"{array[i]}");
 }
     
-}
-int result = MassivRandom ("{0,8}", rnd. Next(1,101) (1,101));
-Console.WriteLine (result);
+ArrayRan (mass, 1, 101);
