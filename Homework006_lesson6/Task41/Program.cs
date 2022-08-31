@@ -31,21 +31,6 @@ void InputMass(int[] array)
 }
 
 
-//4. Метод, который считает сколько чисел пользователь ввел выше 0
-
-int QuantityNumPositiv(int[] array)
-{
-    int count = 0;
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (array[i] > 0)
-        {
-            count++;
-        }
-    }
-    return count;
-}
-
 int[] arr = MasCreating(7);
 Console.WriteLine($"value: {ArrayTuString(arr)}");
 
